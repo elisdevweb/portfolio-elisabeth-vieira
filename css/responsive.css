@@ -1,0 +1,199 @@
+/* ----------- MOBILE (até 576px) ----------- */
+
+@media (max-width: 576px) {
+  .header .img-header {
+    display: none !important;
+  }
+
+  .header .infos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header .infos .title {
+    margin-bottom: 10px !important;
+  }
+  .header .infos p {
+    margin-bottom: 15px !important;
+  }
+
+  .header .container .infos .socials {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p,
+  h6 {
+    text-align: center;
+  }
+
+  h6 {
+    margin-top: 2%;
+  }
+
+  .img-thumbnail {
+    width: 50%;
+    margin-top: -10%;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 360px;
+    height: 240px;
+  }
+
+  .overlay-content h5 {
+    font-size: 1rem;
+  }
+
+  .overlay-icons a {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  .skill-card i {
+    font-size: 34px;
+  }
+
+  .footer-socials {
+    justify-content: center;
+    gap: 0.4rem;
+  }
+}
+
+/* ----------- TABLET (576px até 768px) -----------*/
+
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+  }
+
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .img-header {
+    display: none !important;
+  }
+
+  .page-footer .row {
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: center;
+  }
+
+  .header .infos {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  p,
+  h6 {
+    text-align: center;
+  }
+
+  h6 {
+    margin-top: 2%;
+  }
+
+  .img-thumbnail {
+    width: 50%;
+    margin-top: -10%;
+  }
+}
+
+/*----------- TABLET LANDSCAPE (768px até 992px) -----------*/
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 0 15px;
+  }
+
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+    padding: 0 15px;
+  }
+
+  .container {
+    max-width: 720px;
+  }
+}
+
+/*----------- DESKTOP (992px ou mais) -----------*/
+
+@media (min-width: 992px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .custom-nav-link {
+    text-align: center;
+  }
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 991.98px) {
+  #inicio {
+    padding-top: 6rem !important;
+    text-align: center;
+  }
+
+  #inicio h1 {
+    font-size: 2.5rem;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+
+  .custom-nav-link {
+    text-align: center;
+  }
+
+  .btn-purple-outline {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .form-switch {
+    margin-left: 0 !important;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #inicio h1 {
+    font-size: 3.5rem;
+  }
+}
+/*----------- LARGE DESKTOP (1200px+) -----------*/
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
